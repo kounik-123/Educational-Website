@@ -864,4 +864,44 @@ header
     display:inline-block;
 }
 
+/*========================= POPULAR COURSES =======================*/
+.course_containter 
+{
+    grid-template-columns: 1fr;
+}
+
+/*========================= Testimonials =======================*/
+
+.testimonial_body{
+    padding:1.2rem;
+}
+
+/*========================= FOOTER =======================*/
+
+.footer_container
+{
+    grid-template-columns: 1fr;
+    text-align:center;
+    gap:2rem;
+}
+
+.footer_1p
+{
+    margin:1rem auto;   
+}
+
+.footer_socials
+{
+    justify-content:center;
+    
+}
+
+
+
+
+
+
+
+
+
 }
