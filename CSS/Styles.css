@@ -150,6 +150,21 @@ img
 
 /*================ NAVBAR ======================= */
 
+.logo img {
+    width: 3rem;             /* around 48px */
+    height: 3rem;            /* same as width for a circle */
+    border-radius: 50%;      /* makes it circular */
+    object-fit: cover;       /* ensures image doesn't stretch */
+    border: 0.1rem solid white; /* optional white border */
+  }
+
+  .academy_name
+  {
+    margin-left:-50rem;
+  }
+
+
+
 nav
 {
     background:transaprent;
@@ -219,7 +234,6 @@ nav button
 
 
 }
-
 /* ===============Header===========*/
 
 header
@@ -258,6 +272,10 @@ margin-bottom:5rem;
 
 }
 
+.auto-text-animation
+{
+    margin:2rem 0 0 0;
+}
 
 
 /*=============================================== CATEGORIES ====================================== */
@@ -377,6 +395,19 @@ border-radius:0.9rem;
     font-size:0.85rem;
 }
 
+
+.free-demo-classes
+{
+    display:inline-block;
+
+    margin:0 0 0 2rem;
+} 
+
+.rupees1
+{
+    font-weight:700;
+}
+
 /*=============================================== COURSES ====================================== */
 
 
@@ -425,6 +456,42 @@ border-radius:0.9rem;
     margin:1.2rem 0 2rem;
 
     font-size: 0.9rem;;
+}
+
+
+.part1
+{   
+     display:flex;
+    gap:7rem;
+}
+
+.time1
+{
+    margin:0 0 0 1rem;
+}
+
+
+
+.uis-star
+{
+    color:yellow;
+}
+
+.part1-1
+{
+     display:flex;
+     margin-top:2rem;
+    
+}
+
+.mentor1
+{
+    margin-right:2rem;
+}
+
+.rupees1
+{
+    color:rgb(34, 211, 34);
 }
 
 
@@ -665,6 +732,11 @@ footer ul li a:hover
         cursor:pointer;
     }
 
+    nav .academy_name
+    {
+        margin-left:-30rem;
+    }
+
     nav button#close-menu-btn
     {
         display:none;
@@ -742,6 +814,10 @@ footer ul li a:hover
 
     }
 
+    .logo img {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
 
 /*============================   HEADER     ===============*/
 
@@ -809,20 +885,20 @@ header
 }
 /*========================= MEDIA QUERIES (PHONES) ============================= */
 
-@media  screen and (max-width:600px)
+@media  screen and (max-width:768px)
 {
- .container
- {
-    width:var(--container-width-sm);
-
- }
-
- /*=========================Navbar ============================= */
-
- .nav_menu
- {
-    right:3%;
- }
+    .container
+    {
+       width:var(--container-width-sm);
+   
+    }
+   
+    /*=========================Navbar ============================= */
+   
+    .nav_menu
+    {
+       right:3%;
+    }
 
  /*========================= HEADER ============================= */
 
